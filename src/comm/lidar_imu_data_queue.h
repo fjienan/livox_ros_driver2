@@ -37,9 +37,9 @@ typedef struct {
   float gyro_x;        /**< Gyroscope X axis, Unit:rad/s */
   float gyro_y;        /**< Gyroscope Y axis, Unit:rad/s */
   float gyro_z;        /**< Gyroscope Z axis, Unit:rad/s */
-  float acc_x;         /**< Accelerometer X axis, Unit:g */
-  float acc_y;         /**< Accelerometer Y axis, Unit:g */
-  float acc_z;         /**< Accelerometer Z axis, Unit:g */
+  float acc_x;         /**< Accelerometer X axis, Unit:g (raw data) */
+  float acc_y;         /**< Accelerometer Y axis, Unit:g (raw data) */
+  float acc_z;         /**< Accelerometer Z axis, Unit:g (raw data) */
 } RawImuPoint;
 
 typedef struct {
